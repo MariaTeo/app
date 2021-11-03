@@ -1,5 +1,3 @@
-In this example, we're fetching user data from an endpoint and storing it in state when clicking on the first button.
-
 Refer to the `src/pages/home.jsx` file. You can ignore all the other files within this project.
 
 The Challenge

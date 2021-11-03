@@ -21,6 +21,10 @@ export default function Home() {
           <p><span>First name, Last name</span></p>
         </li>
       </ul>
+      <div>
+        <p>Filter users by name:</p>
+        <input type="text" />
+      </div>
     </>
   );
 }
