@@ -1,11 +1,15 @@
+## Before you start :)
+
 You will not be able to edit this Glitch. You will need to click the "Remix to edit" button that displays in the top right of the view pane.
 You can also remix by clicking the "code-test-template" button in the top left of the page. When you remix, Glitch will create a copy of this project. The URL is what you will share with ON. It is a good idea to create a free Glitch account as this will ensure you can keep your Glitch.
+
+You can create an account [here](https://glitch.com/signin):
 
 Before you get started, read the below instructions carefully. This challenge represents the typical type of task you would need to undertake at ON without assistance.
 
 This exercise is split into two parts.
 
-Refer to the `src/pages/home.jsx` file. You can ignore all the other files within this project.
+Refer to the `src/pages/home.jsx` file and `src/pages/homeStyles.css` file. You can ignore all the other files within this project.
 
 ### The Challenge
 
@@ -58,10 +62,14 @@ Example data from the endpoint:
 }
 ```
 
-
 #### Part 2: Style the component
 
-This step is for you to 
+This step is for you to show ability at applying styles to HTML.
+
+- Display each user as a "card" - a white box with a soft box shadow and rounded corners.
+- Move the first name and last name so they sit alongside the images but vertically centered and well spaced.
+
+Beyond the above, you can go further than this. Custom web fonts, colours, gradients - feel free to explore creative side without limits.
 
 ### What we're looking for
 
@@ -69,5 +77,7 @@ To give you some tips with your code, here's some qualities we're looking for in
 
 - Appropriate use of semantic HTML elements
 - Clean, concise and readable code
-- Demonstration of understanding of CSS principles
-- 
+- Demonstration of understanding of CSS principles and modern best-practise
+- An eye for detail and an appreciation of things looking good
+- Solid consideration of accessibility and usability
+- Minimal reliance on libraries and frameworks, demonstration of solid fundamental JavaScript knowledge
