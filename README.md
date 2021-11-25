@@ -20,6 +20,7 @@ This step is to demonstrate a good understanding of JavaScript.
 - Using the existing `getData` method, ensure this is triggered when the component is rendered. The data should only be fetched once, and you should not need to edit the `getData` method.
 - Add the data from the endpoint into the existing state `myData`.
 - Modify the JSX template to iterate the user data returned from the endpoint and display each users first name, last name and picture.
+
 - Filter the users by the "registered" key value and only display those registered between the year 2000 and the year 2010. Include a formatted version of the date with each user in the template.
 - Add a method which allows you to filter the users by typing in the text box. How could you optimise this behaviour to reduce requests?
 
@@ -69,7 +70,7 @@ This step is for you to show ability at applying styles to HTML.
 - Display each user as a "card" - a white box with a soft box shadow and rounded corners.
 - Move the first name and last name so they sit alongside the images but vertically centered and well spaced.
 
-Beyond the above, you can go further than this. Custom web fonts, colours, gradients - feel free to explore creative side without limits.
+Beyond the above, you can go further than this. Custom web fonts, icons, colours, gradients - feel free to explore creative side without limits.
 
 ### What we're looking for
 
