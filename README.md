@@ -1,3 +1,5 @@
+Before you get started, read the below instructions carefully. This challenge represents the typical type of task you would need to undertake at ON without assistance.
+
 Refer to the `src/pages/home.jsx` file. You can ignore all the other files within this project.
 
 The Challenge
