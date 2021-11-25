@@ -1,14 +1,23 @@
+You will not be able to edit this Glitch. You will need to click the "Remix to edit" button that displays in the top right of the view pane.
+You can also remix by clicking the "code-test-template" button in the top left of the page. When you remix, Glitch will create a copy of this project. The URL is what you will share with ON. It is a good idea to create a free Glitch account as this will ensure you can keep your Glitch.
+
 Before you get started, read the below instructions carefully. This challenge represents the typical type of task you would need to undertake at ON without assistance.
+
+This exercise is split into two parts.
 
 Refer to the `src/pages/home.jsx` file. You can ignore all the other files within this project.
 
-The Challenge
+### The Challenge
 
-- Using the `getData` method, ensure this is triggered when the component is rendered.
-- Add the data from the endpoint into the state `myData`.
+#### Part 1: Display API data in a component
+
+This step is to demonstrate a good understanding of JavaScript.
+
+- Using the existing `getData` method, ensure this is triggered when the component is rendered. The data should only be fetched once, and you should not need to edit the `getData` method.
+- Add the data from the endpoint into the existing state `myData`.
 - Modify the JSX template to iterate the user data returned from the endpoint and display each users first name, last name and picture.
-- Filter the users by the "registered" key value and only display those registered between the year 2000 and the year 2010.
-- Bonus: Add a method which allows you to filter the users by typing in the text box. How could you optimise this behaviour to reduce requests?
+- Filter the users by the "registered" key value and only display those registered between the year 2000 and the year 2010. Include a formatted version of the date with each user in the template.
+- Add a method which allows you to filter the users by typing in the text box. How could you optimise this behaviour to reduce requests?
 
 Example data from the endpoint:
 
@@ -48,3 +57,17 @@ Example data from the endpoint:
   "nat": "GB"
 }
 ```
+
+
+#### Part 2: Style the component
+
+This step is for you to 
+
+### What we're looking for
+
+To give you some tips with your code, here's some qualities we're looking for in your solution.
+
+- Appropriate use of semantic HTML elements
+- Clean, concise and readable code
+- Demonstration of understanding of CSS principles
+- 
