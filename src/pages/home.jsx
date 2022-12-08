@@ -4,11 +4,17 @@ import "./homeStyles.css";
 export default function Home() {
 	const [myData, setMyData] = React.useState([]);
 
-	const getData = async () => {
-		const res = await fetch("https://randomuser.me/api?results=100&nat=us,dk,fr,gb,br");
-		const data = await res.json();
-		return data;
-	};
+  React.useEffect(() => {
+    const getData = async () => {
+      const res = await fetch("https://randomuser.me/api?results=100&nat=us,dk,fr,gb,br");
+      const data = await res.json();
+		  return setMyData(data);
+	  };
+    
+    getData()
+  },[])
+  
+	console.log(myData, "dATA?")
   
   return (
     <>
