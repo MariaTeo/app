@@ -14,23 +14,19 @@ export default function Home() {
     getData()
   },[])
   
-	console.log(myData, "dATA?")
+	
+  
+  const { results, info } = myData
+  console.log(results, "dATA?")
   
   return (
     <>
-      <ul className="list">
-        {/* Add the list here - below is example mark up for a user */}
-        <li>
-          <figure>
-            <img src="https://bulma.io/images/placeholders/64x64.png" />
-          </figure>
-          <p><span>First name, Last name</span></p>
-        </li>
-      </ul>
-      <div>
+       <div>
         <p>Filter users by name:</p>
         <input type="text" />
       </div>
+  
+     
     </>
   );
 }

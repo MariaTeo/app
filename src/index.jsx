@@ -17,7 +17,7 @@ ReactDOM.render(
       <App />
     </HelmetProvider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById("here")
 );
 
 // Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
