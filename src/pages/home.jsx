@@ -13,11 +13,15 @@ const Home = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch(
-        'https://randomuser.me/api?results=100&nat=us,dk,fr,gb,br'
-      )
-      const data = await res.json()
-      return setMyData(data)
+      try {
+        const res = await fetch(
+          'https://randomuser.me/api?results=100&nat=us,dk,fr,gb,br'
+        )
+        const data = await res.json()
+        return setMyData(data)
+      } catch (error) {
+        console.log(`This is your error :(, ${error.message}`)
+      }
     }
 
     getData()
@@ -44,9 +48,12 @@ const Home = () => {
           Filter users by name:
         </Text>
         <input type='text' value={value} onChange={change} />
+        {debouncedSearchedTerm && searchFilteredList?.length > 0 && (
+          <Text>Users found: {searchFilteredList?.length}</Text>
+        )}
       </Flex>
 
-      {searchFilteredList && (
+      {searchFilteredList?.length ? (
         <Flex gap={32} justify='center'>
           {searchFilteredList.map(
             ({ name, picture, email, registered: { date } }, k) => (
@@ -61,6 +68,8 @@ const Home = () => {
             )
           )}
         </Flex>
+      ) : (
+        <Text>No user found :(</Text>
       )}
     </Flex>
   )
