@@ -1,7 +1,7 @@
 /******************************************************************************
 START Glitch hello-app default styles
 
-The styles in this section do some minimal CSS resets, set default fonts and 
+The styles in this section do some minimal CSS resets, set default fonts and
 colors, and handle the layout for our footer and "Remix on Glitch" button. If
 you're new to CSS they may seem a little complicated, but you can scroll down
 to this section's matching END comment to see page-specific styles.
@@ -23,6 +23,10 @@ to this section's matching END comment to see page-specific styles.
 }
 [hidden] {
   display: none !important;
+}
+
+html, body {
+  margin: 0;
 }
 
 /* Import fonts */
@@ -116,8 +120,8 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 /* Page titles */

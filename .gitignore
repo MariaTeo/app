@@ -4,3 +4,7 @@ web_modules
 .firebaserc
 .glitchdotcom.json
 build
+.bash_history
+.node-gyp
+.cache/**
+.config
